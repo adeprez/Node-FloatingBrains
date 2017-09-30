@@ -1,0 +1,148 @@
+html {
+	background-image: url("background");
+    text-align: center;
+}
+
+html, body, #main {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#main {
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+
+#game {
+	background: url("game_background");
+	-webkit-background-size: 100% 100%; /* pour Chrome et Safari */
+	-moz-background-size: 100% 100%; /* pour Firefox */
+	-o-background-size: 100% 100%; /* pour Opera */
+	background-size: 100% 100%; /* version standardisée */
+	padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+html {
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+}
+
+#chat {
+	position: fixed;
+	bottom: 0;
+	background-color: rgb(55,55,55);
+	background-color: rgba(55,55,55,.4);
+	opacity: 0.8;
+	width: 250px;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 4px 4px 2px black;
+}
+
+#chat input {
+	background-color: black;
+	color: white;
+	max-width: 100%;
+	border: 2px solid #333;
+	padding: 3px;
+}
+
+#chat #message {
+	width: 250px;
+}
+
+#chat div, #chat input, #chat span {
+	color: white;
+}
+
+#name {
+	font-size: 1.2em;
+	padding: 10px;
+	color: yellow;
+	text-align: center;
+}
+
+#messages {
+	border: 1px solid #AAA;
+	overflow-y: scroll;
+	width: 100%;
+	height: 250px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#messages span {
+	display: block;
+	font-weight: bold;
+	font-size: .8em;
+	color: #5F5;
+}
+
+#messages div {
+	border-top: 1px solid #555;
+	text-align: left;
+	padding: 3px;
+	max-width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#score-image {
+	position: fixed;
+	left: 10px;
+	top: 5px;
+	z-index: 100;
+}
+
+#score {
+	position: fixed;
+	left: 5px;
+	top: 0;
+	padding: 4px;
+	padding-left: 40px;
+	padding-right: 10px;
+	font-size: 2em;
+	color: yellow;
+}
+
+#time {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	font-size: 3.5em;
+	background-color: black;
+	color: yellow;
+	border-radius: 100px;
+	width: 75px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: monospace;
+	height: 65px;
+	border: 3px solid #444;
+	box-shadow: 4px 4px 2px black;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: rgba(255,255,255,.4);
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: rgb(255,255,255);
+   opacity:  .4;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: rgb(255,255,255);
+   opacity:  .4;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgba(255,255,255,.4);
+}

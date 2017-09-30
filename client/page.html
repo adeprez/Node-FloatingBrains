@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Floating Brains</title>
+        <link rel="stylesheet" href="css" />
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="jquery"></script>
+        <script type="text/javascript" src="js"></script>
+    </head>
+    <body>
+        <img id="score-image" src="/best" width="32" height="32"/><div id="score"></div>
+		<div id="main">
+			<canvas id="game" width="600" height="450">
+				Votre navigateur ne supporte pas HTML5
+			</canvas>
+		<div>
+        <div id="chat">
+            <input type="text" name="name" id="name" placeholder="Pseudo"/>
+            <div id="messages"></div>
+            <input type="text" name="message" id="message" placeholder="Message..."/>
+        </div>
+        <div id="time">-</div>
+        <a href="https://play.google.com/store/apps/details?id=com.deprezal.floatingbrains" target="_blank" style="position:fixed;z-index:100;right:10px;bottom:20px"><img width="200" height="55" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" /></a>
+    </body>
+</html>

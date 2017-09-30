@@ -1,0 +1,9 @@
+{
+  "interval": 300,
+	"width": 20,
+	"height": 15,
+  "density": ".2",
+  "alienChance": ".025",
+  "actionChance": ".5",
+  "maxAliens": 20
+}

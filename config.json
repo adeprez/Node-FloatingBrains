@@ -1,0 +1,218 @@
+{
+	"encoding": "UTF-8",
+	"404": "client/error.html",
+	"resources": {
+		"/": {
+			"type": "text/html",
+			"val": "client/page.html",
+      "encoded": true
+		},
+		"/stats": {
+			"type": "application/json",
+			"val": "stats.json",
+      "force": true
+		},
+		"/css": {
+			"type": "text/css",
+			"val": "client/css/page.css",
+      "encoded": true
+		},
+		"/js": {
+			"type": "text/javascript",
+			"val": "client/js/client.js",
+      "encoded": true
+		},
+		"/0": {
+			"type": "text/html",
+			"val": "client/android.html",
+      "encoded": true
+		},
+		"/facebook": {
+			"type": "text/html",
+			"val": "client/facebook.html",
+      "encoded": true
+		},
+		"/androidjs": {
+			"type": "text/javascript",
+			"val": "client/js/android.js",
+      "encoded": true
+		},
+		"/chromecast": {
+			"type": "text/html",
+			"val": "client/chromecast.html",
+      "encoded": true
+		},
+		"/chromecastcss": {
+			"type": "text/css",
+			"val": "client/css/chromecast.css",
+      "encoded": true
+		},
+		"/chromecastjs": {
+			"type": "text/javascript",
+			"val": "client/js/chromecast.js",
+      "encoded": true
+		},
+		"/jquery": {
+			"type": "text/javascript",
+			"val": "client/js/jquery.js",
+      "encoded": true
+		},
+		"/const": {
+			"type": "application/json",
+			"val": "client/const.json",
+      "encoded": true
+		},
+		"/logo": {
+			"type": "image/png",
+			"val": "client/image/logo.png"
+		},
+		"/title": {
+			"type": "image/png",
+			"val": "client/image/title.png"
+		},
+		"/game_background": {
+			"type": "image/png",
+			"val": "client/image/game_background.png"
+		},
+		"/background": {
+			"type": "image/jpeg",
+			"val": "client/image/background.jpg"
+		},
+		"/block1": {
+			"type": "image/jpeg",
+			"val": "client/image/block.jpg"
+		},
+		"/block2": {
+			"type": "image/jpeg",
+			"val": "client/image/block 2.jpg"
+		},
+		"/block3": {
+			"type": "image/jpeg",
+			"val": "client/image/block 3.jpg"
+		},
+		"/bad1": {
+			"type": "image/png",
+			"val": "client/image/bad.png"
+		},
+		"/bad2": {
+			"type": "image/png",
+			"val": "client/image/bad 2.png"
+		},
+		"/bad3": {
+			"type": "image/png",
+			"val": "client/image/bad 3.png"
+		},
+		"/me1": {
+			"type": "image/png",
+			"val": "client/image/me.png"
+		},
+		"/me2": {
+			"type": "image/png",
+			"val": "client/image/me 2.png"
+		},
+		"/me3": {
+			"type": "image/png",
+			"val": "client/image/me 3.png"
+		},
+		"/alien1": {
+			"type": "image/png",
+			"val": "client/image/alien.png"
+		},
+		"/alien2": {
+			"type": "image/png",
+			"val": "client/image/alien 2.png"
+		},
+		"/e0": {
+			"type": "image/png",
+			"val": "client/image/explode/e0.png"
+		},
+		"/e1": {
+			"type": "image/png",
+			"val": "client/image/explode/e1.png"
+		},
+		"/e2": {
+			"type": "image/png",
+			"val": "client/image/explode/e2.png"
+		},
+		"/e3": {
+			"type": "image/png",
+			"val": "client/image/explode/e3.png"
+		},
+		"/e4": {
+			"type": "image/png",
+			"val": "client/image/explode/e4.png"
+		},
+		"/e5": {
+			"type": "image/png",
+			"val": "client/image/explode/e5.png"
+		},
+		"/e6": {
+			"type": "image/png",
+			"val": "client/image/explode/e6.png"
+		},
+		"/e7": {
+			"type": "image/png",
+			"val": "client/image/explode/e7.png"
+		},
+		"/e8": {
+			"type": "image/png",
+			"val": "client/image/explode/e8.png"
+		},
+		"/e9": {
+			"type": "image/png",
+			"val": "client/image/explode/e9.png"
+		},
+		"/e10": {
+			"type": "image/png",
+			"val": "client/image/explode/e10.png"
+		},
+		"/e11": {
+			"type": "image/png",
+			"val": "client/image/explode/e11.png"
+		},
+		"/e12": {
+			"type": "image/png",
+			"val": "client/image/explode/e12.png"
+		},
+		"/e13": {
+			"type": "image/png",
+			"val": "client/image/explode/e13.png"
+		},
+		"/e14": {
+			"type": "image/png",
+			"val": "client/image/explode/e14.png"
+		},
+		"/e15": {
+			"type": "image/png",
+			"val": "client/image/explode/e15.png"
+		},
+		"/best": {
+			"type": "image/png",
+			"val": "client/image/best.png"
+		},
+		"/explode": {
+			"type": "audio/mpeg",
+			"val": "client/audio/explode.mp3"
+		},
+		"/laser": {
+			"type": "audio/wav",
+			"val": "client/audio/laser.wav"
+		},
+		"/pop": {
+			"type": "audio/wav",
+			"val": "client/audio/pop.wav"
+		},
+		"/bump": {
+			"type": "audio/wav",
+			"val": "client/audio/bump.wav"
+		},
+		"/song": {
+			"type": "audio/mpeg",
+			"val": "client/audio/song 3.mp3"
+		},
+		"/favicon.ico": {
+			"type": "image/png",
+			"val": "client/image/alien.png"
+		}
+	}
+}

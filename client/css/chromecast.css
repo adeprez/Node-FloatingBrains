@@ -1,0 +1,146 @@
+html {
+	background-image: url("background");
+    text-align: center;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#load {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: black;
+  text-align: center;
+}
+
+#load div {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  font-family: consolas;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#logo {
+	position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  margin-left: -256px;
+  margin-top: -256px;
+}
+
+#main {
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+
+#game {
+  z-index: 1;
+  position: relative;
+	background: url("game_background");
+	-webkit-background-size: 100% 100%; /* pour Chrome et Safari */
+	-moz-background-size: 100% 100%; /* pour Firefox */
+	-o-background-size: 100% 100%; /* pour Opera */
+	background-size: 100% 100%; /* version standardisée */
+	padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+html {
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+}
+
+#messages {
+	position: fixed;
+	top: 100px;
+  left: 50px;
+	width: 200px;
+	height: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+  opacity: .7;
+  z-index: 10;
+}
+
+#messages span {
+	display: block;
+	font-weight: bold;
+	color: #2F2;
+}
+
+#messages div {
+	color: #FFF;
+	border-top: 1px solid #555;
+	text-align: left;
+	padding: 3px;
+	max-width: 100%;
+	font-size: 1.1em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#score-image {
+	position: fixed;
+	left: 50px;
+	top: 55px;
+	z-index: 100;
+}
+
+#score {
+	position: fixed;
+	left: 80px;
+	top: 50px;
+	padding: 4px;
+	font-size: 2em;
+	color: yellow;
+  z-index: 100;
+}
+
+#time {
+	position: fixed;
+	right: 60px;
+	top: 60px;
+	font-size: 3.5em;
+	background-color: black;
+	color: yellow;
+	border-radius: 100px;
+	width: 75px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: monospace;
+	height: 65px;
+	border: 3px solid #444;
+	box-shadow: 4px 4px 2px black;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: rgba(255,255,255,.4);
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: rgb(255,255,255);
+   opacity:  .4;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: rgb(255,255,255);
+   opacity:  .4;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgba(255,255,255,.4);
+}

@@ -1,0 +1,23 @@
+{
+	"UP": "z",
+	"DOWN": "s",
+	"LEFT": "q",
+	"RIGHT": "d",
+	"NONE": "-",
+	
+	"game": "g",
+	"mainPlayer": "u",
+	"newPlayer": "p",
+	"movement": "m",
+	"update": "n",
+	"connection": "connection",
+	"deconnection": "disconnect",
+	"updatePlayer": "x",
+	"updateBlock": "b",
+	"message": "t",
+	"join": "j",
+	
+	"blockLife": 3,
+	"playerLife": 3,
+	"shotSpeed": 1
+}

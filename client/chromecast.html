@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Floating Brains</title>
+        <link rel="stylesheet" href="chromecastcss" />
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+        <script type="text/javascript" src="chromecastjs"></script>
+    </head>
+    <body>
+        <img id="score-image" src="/best" width="32" height="32" alt="best score"/><div id="score"></div>
+        <div id="main">
+          <canvas id="game" width="600" height="450">
+            Votre chromecast ne supporte pas HTML5
+          </canvas>
+        </div>
+        <div id="messages"></div>
+        <div id="time">-</div>
+        <div id="load">
+          <div>Loading...</div>
+          <img id="logo" src="/logo" width="512" height="512" alt="logo"/>
+        </div>
+    </body>
+</html>
